@@ -33,6 +33,6 @@ http://127.0.0.1:8888/calculator/
 - The GitHub action is on this file: https://github.com/lofidewanto/gwt-azure-static-webapp/blob/main/.github/workflows/azure-static-web-apps-lively-pebble-036bda903.yml
 - Here is the status on the deployment: https://github.com/lofidewanto/gwt-azure-static-webapp/actions
 
-Just go to: https://lively-pebble-036bda903.azurestaticapps.net 
+For the result just go to: https://lively-pebble-036bda903.azurestaticapps.net 
 
-At the moment this doesn't work, see: https://groups.google.com/g/google-web-toolkit/c/UUejbbyV4yQ/m/ZHNjGarPAAAJ
+Discussion about this topic: https://groups.google.com/g/google-web-toolkit/c/UUejbbyV4yQ/m/05wRt3NGBgAJ
