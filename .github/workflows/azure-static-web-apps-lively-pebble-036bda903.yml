@@ -21,7 +21,13 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots clean package
+        run: mvn --batch-mode --update-snapshots verify
+      - name: Create staging directory
+        run: mkdir staging && cp target/gwt-azure-static-webapp-1.0.0-SNAPSHOT/* staging
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Package
+          path: staging
 
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
