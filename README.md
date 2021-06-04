@@ -1,11 +1,16 @@
 # gwt-azure-static-webapp
-Azure Static Webapp  GWT Example
+
+Azure Static Webapp GWT Example
+
+## Introduction
 
 This example uses GWT Boot as Starter Parent: https://github.com/gwtboot/gwt-boot-samples
 
 Take a look at this article to see the whole story: http://bit.ly/WebJavaStory
 
-[![Build Status](https://travis-ci.org/lofidewanto/jsinterop-simple-example.svg?branch=master)](https://travis-ci.org/lofidewanto/jsinterop-simple-example)
+This example should be deployed on Microsoft Azure Static Webapps: https://docs.microsoft.com/en-us/azure/static-web-apps/
+
+## How to build and run locally
 
 To build the example:
 ```
@@ -22,3 +27,12 @@ mvn gwt:generate-module gwt:devmode
 http://127.0.0.1:8888/calculator/
 ```
 3. GWT Dev Mode supports **automatic transpiling**. You just need to update your Java code in your IDE and **reload your web browser**. Your Java code will be automatically transpiled and your webapp stays uptodate without restarting the web server. If you change the **index.html** you need to push the **restart button** on the Swing GUI.
+
+## How to run it on the Azure Static Webapps
+
+- The GitHub action is on this file: https://github.com/lofidewanto/gwt-azure-static-webapp/blob/main/.github/workflows/azure-static-web-apps-lively-pebble-036bda903.yml
+- Here is the status on the deployment: https://github.com/lofidewanto/gwt-azure-static-webapp/actions
+
+Just go to: https://lively-pebble-036bda903.azurestaticapps.net 
+
+At the moment this doesn't work, see: https://groups.google.com/g/google-web-toolkit/c/UUejbbyV4yQ/m/ZHNjGarPAAAJ
