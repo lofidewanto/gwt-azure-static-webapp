@@ -25,7 +25,7 @@ jobs:
           distribution: 'adopt'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
-      - name: Build And Deploy Static Webapps
+      - name: Deploy Static Webapps
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
