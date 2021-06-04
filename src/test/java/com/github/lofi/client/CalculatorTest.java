@@ -1,11 +1,9 @@
-package com.github.lofi;
+package com.github.lofi.client;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.util.logging.Logger;
-
-import com.github.lofi.client.Calculator;
 
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +14,7 @@ public class CalculatorTest {
 	private Calculator calculator;
 
 	public CalculatorTest() {
-		this.calculator = new Calculator();
+		this.calculator = new Calculator("Test");
 	}
 
 	@Test
@@ -54,4 +52,5 @@ public class CalculatorTest {
 
 		logger.info("Result: " + result);
 	}
+	
 }
