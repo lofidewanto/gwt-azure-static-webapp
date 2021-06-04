@@ -39,4 +39,6 @@ For the result just go to:
 https://lively-pebble-036bda903.azurestaticapps.net 
 ```
 
-Discussion about this topic: https://groups.google.com/g/google-web-toolkit/c/UUejbbyV4yQ/m/05wRt3NGBgAJ
+Discussion about this topic: 
+- GWT Google group: https://groups.google.com/g/google-web-toolkit/c/UUejbbyV4yQ/m/05wRt3NGBgAJ
+- Twitter: https://twitter.com/lofidewanto/status/1400871145621053442?s=21
