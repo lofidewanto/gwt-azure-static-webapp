@@ -70,7 +70,7 @@ public class OrderView implements IsElement<HTMLDivElement> {
 
 	public OrderView(Calculator calculator) {
 		logger.info("Create OrderView");
-		
+
 		this.calculator = calculator;
 
 		fieldsGrouping = FieldsGrouping.create();
@@ -148,8 +148,8 @@ public class OrderView implements IsElement<HTMLDivElement> {
 					prioritySelect.getValue());
 
 			todoItemsListGroup.addItem(todoItem);
-			
-			Double[] sumValues = {10.0, 11.0};
+
+			Double[] sumValues = { 10.0, 11.0 };
 			logger.info("Calculator: " + calculator.calculateSum(sumValues));
 
 			fieldsGrouping.clear().clearInvalid();
@@ -158,13 +158,13 @@ public class OrderView implements IsElement<HTMLDivElement> {
 
 	private Badge priorityBadge(Priority priority) {
 		switch (priority) {
-		case High:
-			return Badge.create("High").setBackground(Color.RED);
-		case Medium:
-			return Badge.create("Medium").setBackground(Color.ORANGE);
-		case Low:
-		default:
-			return Badge.create("Low").setBackground(Color.TEAL);
+			case High:
+				return Badge.create("High").setBackground(Color.RED);
+			case Medium:
+				return Badge.create("Medium").setBackground(Color.ORANGE);
+			case Low:
+			default:
+				return Badge.create("Low").setBackground(Color.TEAL);
 		}
 
 	}
