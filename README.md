@@ -6,9 +6,9 @@ Azure Static Webapp GWT Example
 
 This example uses GWT Boot as Starter Parent: https://github.com/gwtboot/gwt-boot-samples
 
-Take a look at this article to see the whole story: http://bit.ly/WebJavaStory
+Take a look at this article to see the whole story: https://bit.ly/GWTAzureStaticsWebApps
 
-This example should be deployed on Microsoft Azure Static Webapps: https://docs.microsoft.com/en-us/azure/static-web-apps/
+This example should be deployed on Microsoft Azure Static Webapps: https://docs.microsoft.com/en-us/azure/static-web-apps
 
 ## How to build and run locally
 
@@ -42,3 +42,4 @@ https://lively-pebble-036bda903.azurestaticapps.net
 Discussion about this topic: 
 - GWT Google group: https://groups.google.com/g/google-web-toolkit/c/UUejbbyV4yQ/m/05wRt3NGBgAJ
 - Twitter: https://twitter.com/lofidewanto/status/1400871145621053442?s=21
+- Article at Medium: https://bit.ly/GWTAzureStaticsWebApps
